@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تم الحجز بنجاح | الجوهي العقارية</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* أنيميشن بسيط لظهور الأيقونة */
+        @keyframes scaleIn {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .animate-check { animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+    </style>
+</head>
+<body class="bg-gray-50 h-screen flex items-center justify-center px-4 text-[#18230F]">
+
+    <div class="max-w-md w-full bg-white p-10 rounded-3xl shadow-2xl border border-gray-100 text-center space-y-8">
+        
+        <div class="flex justify-center">
+            <div class="w-24 h-24 bg-[#EBD5AB]/20 rounded-full flex items-center justify-center animate-check">
+                <svg class="w-12 h-12 text-[#18230F]" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="space-y-3">
+            <h1 class="text-3xl font-bold">شكراً لك!</h1>
+            <p class="text-xl text-gray-600 font-medium leading-relaxed">
+                لقد تم حجز الموعد بنجاح.
+            </p>
+            <p class="text-sm text-gray-400">
+                سيتواصل معك فريقنا قريباً لتأكيد تفاصيل الزيارة.
+            </p>
+        </div>
+
+        <div class="pt-4 border-t border-gray-50">
+            <a href="index.html" class="inline-block w-full py-4 bg-[#18230F] text-[#EBD5AB] font-bold rounded-xl shadow-lg hover:bg-[#253517] transition-all duration-300 transform hover:-translate-y-1">
+                العودة للرئيسية
+            </a>
+        </div>
+
+        <div class="flex flex-col items-center gap-1 opacity-60">
+            <img src="assets/logo2.png" alt="Logo" class="w-6 opacity-80">
+           
+        </div>
+
+    </div>
+
+</body>
+</html>

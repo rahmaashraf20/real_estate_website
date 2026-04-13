@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز موعد | الجوهي العقارية</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-[#18230F]">
+
+    <nav class="bg-white px-8 py-4 flex justify-between items-center border-b border-gray-100">
+        <div class="flex items-center gap-2">
+            <img src="assets/logo2.png" alt="Logo" class="w-8">
+            <span class="font-bold text-lg">الجوهي العقارية</span>
+        </div>
+        <a href="index.html" class="text-sm font-bold text-gray-500 hover:text-[#18230F]">العودة للرئيسية ←</a>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            
+            <div class="space-y-8">
+                <div>
+                    <h1 class="text-4xl font-bold mb-4">احجز موعدك الآن</h1>
+                    <p class="text-gray-500 leading-relaxed">يسعدنا استقبالكم في مكتبنا لمناقشة احتياجاتكم العقارية. يرجى اختيار الموعد المناسب وسنقوم بتأكيد الحجز معك في أقرب وقت.</p>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border-r-4 border-[#EBD5AB]">
+                        <div class="bg-[#18230F] text-[#EBD5AB] p-2 rounded-lg">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">ساعات العمل</p>
+                            <p class="font-bold text-sm">الأحد - الخميس: ٩ ص - ٦ م</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border-r-4 border-[#18230F]">
+                        <div class="bg-[#EBD5AB] text-[#18230F] p-2 rounded-lg">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">موقع المكتب</p>
+                            <p class="font-bold text-sm">  الخبر الشمالية - شارع الملك عبدالعزيز </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border border-gray-100">
+                <form class="space-y-5">
+                    <div class="space-y-2">
+                        <label class="block text-sm font-bold">الاسم بالكامل</label>
+                        <input type="text" placeholder="أدخل اسمك" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#EBD5AB] outline-none transition-all">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-bold">رقم الجوال</label>
+                        <input type="tel" placeholder="05xxxxxxxx" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#EBD5AB] outline-none" dir="ltr">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="space-y-2">
+                            <label class="block text-sm font-bold">تاريخ الموعد</label>
+                            <input type="date" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#EBD5AB] outline-none">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block text-sm font-bold">وقت الموعد</label>
+                            <select class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#EBD5AB] outline-none">
+                                <option>٩:٠٠ صباحاً</option>
+                                <option>١٠:٠٠ صباحاً</option>
+                                <option>١١:٠٠ صباحاً</option>
+                                <option>١٢:٠٠ مساءً</option>
+                                <option>١:٠٠ مساءً</option>
+                                <option>٤:٠٠ مساءً</option>
+                                <option>٤:٣٠ مساءً</option>
+                                <option>٥:٠٠ مساءً</option>
+                                <option>٥:٣٠ مساءً</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-sm font-bold">سبب الزيارة</label>
+                        <textarea rows="3" placeholder="مثال: استشارة بخصوص شراء أرض..." class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#EBD5AB] outline-none resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-[#18230F] text-[#EBD5AB] font-bold rounded-xl shadow-lg hover:bg-[#253517] transition-all duration-300 transform hover:-translate-y-1">
+                        تأكيد طلب الموعد
+                    </button>
+                    
+                    <p class="text-[10px] text-gray-400 text-center">بإدارة عبدالله الجوهي العقارية</p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
